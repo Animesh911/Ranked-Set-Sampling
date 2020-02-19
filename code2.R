@@ -4,10 +4,10 @@ library('MASS')
 
 mean <- 10
 sdv <- 4
-N <- 150
-r <- 0.5
+N <- 1500
+r <- 0.5 # 0.75, 1
 
-h<- 5 # size/H
+h<- 2 # size/H also for 3,4,5
 d<- 5 # cycles
 n<- d*h # no of samples
 
